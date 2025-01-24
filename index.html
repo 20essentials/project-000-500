@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TierMaker</title>
+    <meta name="google" content="notranslate" />
+    <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container-tierMaker">
+      <header class="am-header">
+        <img src="assets/header.png" alt="heade logo" />
+      </header>
+      <p class="message">👻 This page only works in PC</p>
+      <section class="tiermaker">
+        <article class="row" style="--color: var(--color-s)">
+          <div class="row-left">
+            <input type="text" maxlength="8" value="S" />
+          </div>
+          <div class="row-right"></div>
+        </article>
+        <article class="row" style="--color: var(--color-a)">
+          <div class="row-left">
+            <input type="text" maxlength="8" value="A" />
+          </div>
+          <div class="row-right"></div>
+        </article>
+        <article class="row" style="--color: var(--color-b)">
+          <div class="row-left">
+            <input type="text" maxlength="8" value="B" />
+          </div>
+          <div class="row-right"></div>
+        </article>
+        <article class="row" style="--color: var(--color-c)">
+          <div class="row-left">
+            <input type="text" maxlength="8" value="C" />
+          </div>
+          <div class="row-right"></div>
+        </article>
+        <article class="row" style="--color: var(--color-d)">
+          <div class="row-left">
+            <input type="text" maxlength="8" value="D" />
+          </div>
+          <div class="row-right"></div>
+        </article>
+        <article class="row" style="--color: var(--color-e)">
+          <div class="row-left">
+            <input type="text" maxlength="8" value="E" />
+          </div>
+          <div class="row-right"></div>
+        </article>
+      </section>
+      <article class="container-buttons">
+        <label for="files">
+          <svg>
+            <use href="assets/svgSprite.svg#add"></use>
+          </svg>
+          <input
+            class="input-files"
+            type="file"
+            multiple
+            id="files"
+            accept="images/*"
+            hidden
+          />
+        </label>
+        <button class="reset">
+          <svg class="reset-svg">
+            <use href="assets/svgSprite.svg#reset"></use>
+          </svg>
+        </button>
+        <button class="photo">
+          <svg>
+            <use href="assets/svgSprite.svg#gallery"></use>
+          </svg>
+        </button>
+      </article>
+      <footer class="docker-new-images"></footer>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

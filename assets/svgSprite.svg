@@ -1,0 +1,32 @@
+<svg>
+  <symbol
+    viewBox="0 0 24 24"
+    fill="none"
+    id='add'
+    xmlns="http://www.w3.org/2000/svg"
+    stroke="#dddddd"
+  >
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g
+      id="SVGRepo_tracerCarrier"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></g>
+    <g id="SVGRepo_iconCarrier">
+      <g id="Edit / Add_Plus_Circle">
+        <path
+          id="Vector"
+          d="M8 12H12M12 12H16M12 12V16M12 12V8M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z"
+          stroke="#dddddd"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+      </g>
+    </g>
+  </symbol>
+
+  <symbol id="reset" fill="#dddddd" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" stroke="#dddddd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M960 0v213.333c411.627 0 746.667 334.934 746.667 746.667S1371.627 1706.667 960 1706.667 213.333 1371.733 213.333 960c0-197.013 78.4-382.507 213.334-520.747v254.08H640V106.667H53.333V320h191.04C88.64 494.08 0 720.96 0 960c0 529.28 430.613 960 960 960s960-430.72 960-960S1489.387 0 960 0" fill-rule="evenodd"></path> </g></symbol>
+
+  <symbol id="gallery" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#dddddd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 11C8.10457 11 9 10.1046 9 9C9 7.89543 8.10457 7 7 7C5.89543 7 5 7.89543 5 9C5 10.1046 5.89543 11 7 11Z" stroke="#dddddd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5.56055 21C11.1305 11.1 15.7605 9.35991 21.0005 15.7899" stroke="#dddddd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M13.28 3H5C3.93913 3 2.92172 3.42136 2.17157 4.17151C1.42142 4.92165 1 5.93913 1 7V17C1 18.0609 1.42142 19.0782 2.17157 19.8284C2.92172 20.5785 3.93913 21 5 21H17C18.0609 21 19.0783 20.5785 19.8284 19.8284C20.5786 19.0782 21 18.0609 21 17V11" stroke="#dddddd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M18.75 0.829956V8.82996" stroke="#dddddd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M21.9508 5.63L18.7508 8.83L15.5508 5.63" stroke="#dddddd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></symbol>
+</svg>

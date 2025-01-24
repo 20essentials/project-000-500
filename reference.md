@@ -1,0 +1,7 @@
+- **Reference ⬇️**
+  - [Inspiration Midudev Project](https://www.javascript100.dev/07-tier-maker)
+  - [Tier Maker Page](https://live.tiermaker.com/89328136)
+  - [Add Svg](https://www.svgrepo.com/svg/510786/add-plus-circle)
+  - [Reset Svg](https://www.svgrepo.com/svg/501336/reset)
+  - [Gallery Svg](https://www.svgrepo.com/svg/522625/photo-download)
+  - [Pheralph Svg's](https://svgl.app/)
