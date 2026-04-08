@@ -30,7 +30,7 @@ body {
   flex-wrap: wrap;
   place-content: center;
   background-color: #000;
-  touch-action: none;
+  touch-action: pan-y;
 }
 
 body {
@@ -60,18 +60,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container-tierMaker {
-  max-width: 900px;
+  max-width: 58.59vmax;
+  padding-bottom: 2.08vmax;
   width: 100%;
-  min-height: 100vh;
-  padding-bottom: 2rem;
+  height: max-content;
 
   .am-header {
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 2.08vmax;
 
     img {
-      height: 2rem;
+      height: 2.08vmax;
     }
   }
 
@@ -86,14 +86,18 @@ body::-webkit-scrollbar-thumb {
       flex-wrap: wrap;
       width: 80%;
       background-color: #222;
-      border-bottom: 1px solid #444;
+      border-bottom: 0.065vmax solid #444;
+      gap: 0.52vmax;
+      padding-left: 5.53vmax;
+      min-height: 5.21vmax;
       align-content: center;
       justify-content: left;
       overflow: hidden;
-      gap: 0.5rem;
-      padding-left: 85px;
       position: relative;
-      min-height: 80px;
+
+      @media (hover: hover) {
+        overflow: initial;
+      }
 
       &.row-over {
         background-color: #444;
@@ -101,8 +105,8 @@ body::-webkit-scrollbar-thumb {
 
       .row-left {
         background-color: orange;
-        min-width: 80px;
-        height: 80px;
+        min-width: 5.21vmax;
+        height: 5.21vmax;
         height: 100%;
         position: absolute;
         left: 0;
@@ -116,28 +120,28 @@ body::-webkit-scrollbar-thumb {
         input {
           border: none;
           max-width: 100%;
-          padding: 0.4rem;
-          width: 80px;
+          padding: 0.42vmax;
+          width: 5.21vmax;
           text-align: center;
           background-color: transparent;
           border: none;
           font-weight: 700;
+          font-size: 1.2vmax;
 
           &:focus {
             border: none;
-            outline: 1px solid #444;
+            outline: 0.1vmax solid #444;
           }
         }
       }
 
       img {
-        width: 60px;
-        height: 60px;
+        width: 3.91vmax;
+        height: 3.91vmax;
         object-fit: contain;
         object-position: center;
         cursor: grab;
         display: block;
-
         margin-block: auto;
       }
     }
@@ -146,21 +150,21 @@ body::-webkit-scrollbar-thumb {
   .container-buttons {
     display: flex;
     justify-content: center;
-    margin-top: 1.5rem;
-    gap: 1rem;
+margin-top: 1.04vmax;
+gap: 1.04vmax;
 
     button,
     label {
-      width: 38px;
-      height: 38px;
+      width: 2.47vmax;
+      height: 2.47vmax;
+      border-radius: 0.52vmax;
+      box-shadow: 0.13vmax 0.13vmax 0.33vmax 0.07vmax #fff4;
       background-color: #222;
       border: none;
       outline: none;
       display: flex;
       flex-wrap: wrap;
       place-content: center;
-      border-radius: 8px;
-      box-shadow: 2px 2px 5px 1px #fff4;
       transition: transform 0.4s linear, box-shadow 0.4s linear;
 
       &.photo {
@@ -170,8 +174,8 @@ body::-webkit-scrollbar-thumb {
       }
 
       &:active {
-        transform: translateX(2px);
-        box-shadow: 0px 0px 5px 1px #fff4;
+        transform: translateX(0.13vmax);
+        box-shadow: 0 0 0.33vmax 0.07vmax #fff4;
       }
 
       svg {
@@ -193,19 +197,19 @@ body::-webkit-scrollbar-thumb {
 
   .docker-new-images {
     width: 80%;
-    min-height: 160px;
-    border: 3px solid #222;
+    min-height: 10.42vmax;
+    border: 0.2vmax solid #222;
+    margin-top: 1.04vmax;
+    gap: 1.04vmax;
+    padding: 1.04vmax;
     margin-inline: auto;
-    margin-top: 1.5rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem;
     place-content: center;
 
     img {
-      width: 60px;
-      height: 60px;
+      width: 3.91vmax;
+      height: 3.91vmax;
       object-fit: contain;
       object-position: center;
       cursor: grab;

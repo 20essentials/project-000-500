@@ -43,7 +43,7 @@ export function init() {
     startX = e.clientX;
     startY = e.clientY;
 
-    draggedElementCurrent.style.zIndex = '1000';
+    draggedElementCurrent.style.zIndex = '5000';
     draggedElementCurrent.style.willChange = 'transform';
 
     previewElement = draggedElementCurrent.cloneNode(true);
