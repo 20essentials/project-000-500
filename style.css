@@ -65,16 +65,6 @@ body::-webkit-scrollbar-thumb {
   min-height: 100vh;
   padding-bottom: 2rem;
 
-  .message {
-    color: white;
-    text-align: center;
-    margin-bottom: 1rem;
-    display: none;
-
-    @media (width <= 1111px) and (orientation: portrait) {
-      display: block;
-    }
-  }
   .am-header {
     display: flex;
     justify-content: center;
@@ -172,6 +162,12 @@ body::-webkit-scrollbar-thumb {
       border-radius: 8px;
       box-shadow: 2px 2px 5px 1px #fff4;
       transition: transform 0.4s linear, box-shadow 0.4s linear;
+
+      &.photo {
+        @media (width <= 1111px) and (hover: none) {
+          display: none;
+        }
+      }
 
       &:active {
         transform: translateX(2px);
