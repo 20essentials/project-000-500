@@ -30,12 +30,13 @@ body {
   flex-wrap: wrap;
   place-content: center;
   background-color: #000;
+  touch-action: none;
 }
 
 body {
   --sb-track-color: #222;
   --sb-thumb-color: #6baf8d;
-  --sb-size: 14px;
+  --sb-size: 0.6vmax;
 }
 
 body::-webkit-scrollbar {
@@ -44,12 +45,12 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   background: var(--sb-track-color);
-  border-radius: 1px;
+  border-radius: 0;
 }
 
 body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
-  border-radius: 1px;
+  border-radius: 0;
 }
 
 @supports not selector(::-webkit-scrollbar) {
